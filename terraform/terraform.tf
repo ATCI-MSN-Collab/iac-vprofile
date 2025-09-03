@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "prod-infra-actions"
+    bucket = "apac-prod-app"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
